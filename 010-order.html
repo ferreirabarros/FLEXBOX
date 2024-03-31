@@ -11,15 +11,17 @@
     .flex {
       display: flex;
     }
-
+    /* order ordena os item */
     .flex .item:nth-of-type(3) {
       background-color: royalblue;
-      order: 1;
+      /*order: 1; /* order para o ultimo */
+      order: 0; /* order para ordem original */
+     
     }
 
     .flex .item:nth-of-type(5) {
       background-color: green;
-      order: -1;
+      order: -1;/* order para o primeiro */
     }
   </style>
 </head>
